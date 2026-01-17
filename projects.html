@@ -4,40 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio | Projects</title>
-    <link rel="icon" type="Image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <header class="main-header">
-        <div class="container">
-            <div class="logo">
-                <h1>MyPortfolio</h1>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html" class="active">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="mobile-menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+
+<header class="main-header">
+    <div class="container">
+        <div class="logo">
+            <h1>MyPortfolio</h1>
         </div>
-    </header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
 
-    <main class="main-content">
-        <div class="container">
-            <section class="page-header">
-                <h1>My Projects</h1>
-                <p>Here are some of the projects I've worked on recently</p>
-            </section>
+<main class="main-content">
+<div class="container">
 
-            <section class="blog-section">
+    <section class="page-header">
+        <h1>My Projects</h1>
+        <p>Here are some of the projects I've worked on recently</p>
+    </section>
+      <section class="blog-section">
                 <h2>Latest Blog Posts</h2>
                 <div class="blog-posts">
                     <article class="blog-post">
@@ -76,74 +79,137 @@
                 </div>
             </section>
 
-            <section class="projects-section">
-                <h2>Featured Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/pro-1.png" alt="ASDY Foundation Website">
-                        </div>
-                        <div class="project-content">
-                            <h3>ASDY Foundation Website</h3>
-                            <p>Second semester coursework website. Built with HTML, CSS and JavaScript. Includes multiple pages and responsive layout.</p>
-                            <div class="tech-tags">
-                                <span>HTML</span>
-                                <span >CSS</span>
-                                <span>JavaScript</span>
-                             <div class="project-actions">
-                                <a class="btn primary" href="https://dahamdissanayake.github.io/ASDY-Foundation/" target="_blank" rel="noopener">Live Demo</a>
-                                <a class="btn outline" href="https://github.com/DahamDissanayake/ASDY-Foundation" target="_blank" rel="noopener">GitHub Repo</a>
-                             </div>
-                            </div>
-                           
-                        </div>
+
+    <!-- ================= FEATURED PROJECTS ================= -->
+    <section class="projects-section">
+        <h2>Featured Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- ================= ASDY ================= -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/pro-1.png" alt="ASDY Foundation Website">
+                </div>
+
+                <div class="project-content">
+                    <h3>ASDY Foundation Website</h3>
+
+                    <p>
+                       A fully responsive university coursework website developed for a real-world non-profit organization. The project focuses on accessibility, clean UI structure, and multi-page navigation while maintaining a professional and trustworthy online presence.
+                    </p>
+                    <p>
+                        The website includes structured content sections, reusable components, and responsive layouts optimized for desktop and mobile devices. Emphasis was placed on semantic HTML, modern CSS practices, and JavaScript-based interactivity.
+                    </p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
                     </div>
 
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/pro-2.png" alt="Task mangement app screenshot">
-                        </div>
-                        <div class="project-content">
-                            <h3>Property Finder Web App</h3>
-                            <p>Second-year Advanced Client-Side coursework and my first React project.
-    A dynamic property listing application with search, filtering, routing,
-    and state management.</p>
-                            <div class="tech-tags">
-                                <span>REACT</span>
-                                <span>JAVASCRIPT</span>
-                                <span>CSS</span>
-                             <div class="project-actions">
-                                <a class="btn primary" href="https://propertyfinder-pearl.vercel.app/" target="_blank" rel="noopener">Live Demo</a>
-                                <a class="btn outline" href="https://github.com/Sunna05/property-finder---Advanced-client-side-" target="_blank" rel="noopener">GitHub Repo</a>
-                             </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="images/pro-3.png" alt="Weather Dashboard screenshot">
-                        </div>
-                        <div class="project-content">
-                            <h3>Weather Dashboard</h3>
-                            <p>A weather dashboard that displays current conditions and forecasts using a third-party API. Features a clean, intuitive interface with responsive design.</p>
-                            <div class="project-tech">
-                                <span class="tech-tag">HTML5</span>
-                                <span class="tech-tag">CSS3</span>
-                                <span class="tech-tag">API</span>
-                            </div>
-                            
-                        </div>
+                    <div class="project-actions">
+                        <a class="btn primary"
+                           href="https://dahamdissanayake.github.io/ASDY-Foundation/"
+                           target="_blank" rel="noopener">
+                            Live Demo
+                        </a>
+                        <a class="btn outline"
+                           href="https://github.com/DahamDissanayake/ASDY-Foundation"
+                           target="_blank" rel="noopener">
+                            GitHub Repo
+                        </a>
                     </div>
                 </div>
-            </section>
-        </div>
-    </main>
+            </div>
 
-    <footer>
+            <!-- ================= REACT PROPERTY FINDER ================= -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/pro-2.png" alt="Property Finder Web App">
+                </div>
+
+                <div class="project-content">
+                    <h3>Property Finder Web App</h3>
+
+                    <p>
+                       A modern property listing web application developed as part of the Advanced Client-Side Development module and my first complete React project. The application allows users to browse, search, and filter property listings through an interactive and dynamic UI.
+                    </p>
+                    <p>
+                       Key features include client-side routing, reusable React components, state management, and dynamic filtering. The project demonstrates practical use of React fundamentals while following component-based architecture and clean UI design principles. 
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a class="btn primary"
+                           href="https://propertyfinder-pearl.vercel.app/"
+                           target="_blank" rel="noopener">
+                            Live Demo
+                        </a>
+                        <a class="btn outline"
+                           href="https://github.com/Sunna05/property-finder---Advanced-client-side-"
+                           target="_blank" rel="noopener">
+                            GitHub Repo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= ADORIX ================= -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/pro-3.png" alt="ADORIX Interactive AI Kiosk">
+                </div>
+
+                <span class="badge">Ongoing Project</span>
+
+                <div class="project-content">
+                    <h3>ADORIX – Interactive AI Kiosk</h3>
+
+                    <p>
+                        ADORIX is an AI-powered interactive kiosk designed to detect
+                        user presence and dynamically display personalized digital
+                        content in real time. The system integrates computer vision,
+                        frontend interfaces, and multimedia playback for public
+                        engagement.
+                    </p>
+
+                    <p class="meta">
+                        <b>Role:</b> Group Co-Leader & System Integration<br>
+                        <b>Status:</b> In Development
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Computer Vision</span>
+                        <span>MediaPipe</span>
+                        <span>React</span>
+                        <span>Raspberry Pi</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a class="btn outline"
+                           href="#"
+                           onclick="return false;">
+                            Private Repository
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+</main>
+
+<footer>
     <div class="footer-container">
-        <!-- Quick Links -->
+
         <div class="footer-nav">
             <h4>Quick Links</h4>
             <ul>
@@ -154,34 +220,34 @@
             </ul>
         </div>
 
-        <!-- Contact Info -->
         <div class="footer-contact">
             <h4>Contact Info</h4>
             <ul>
                 <li>
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:sithikaweerasinghe2005@gmail.com">sithikaweerasinghe2005@gmail.com</a>
+                    <a href="mailto:sithikaweerasinghe2005@gmail.com">
+                        sithikaweerasinghe2005@gmail.com
+                    </a>
                 </li>
                 <li>
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+94705133255">+94 70 51 33 255</a>
+                    <a href="tel:+94705133255">
+                        +94 70 51 33 255
+                    </a>
                 </li>
             </ul>
         </div>
 
-        <!-- Follow Me -->
         <div class="footer-social">
             <h4>Follow Me</h4>
             <ul>
-                <li><a href="https://github.com/Sunna05" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/sithika-weerasingha-8267182b0/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.instagram.com/coffeforurhed/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/Sunna05" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/sithika-weerasingha-8267182b0/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/coffeforurhed/?hl=en" target="_blank">Instagram</a></li>
             </ul>
         </div>
     </div>
-    
+
     <p class="footer-copy">&copy; 2025 Sithika Weerasinghe. All rights reserved.</p>
 </footer>
-</body>
 
+</body>
 </html>
